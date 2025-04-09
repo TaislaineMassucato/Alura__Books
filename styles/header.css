@@ -102,6 +102,15 @@ header{
     .cabecalho_menu_hamburguinho{
         display: none;
     }
+    .opcoes__botao:checked~.lista-menu{
+        display: block;
+    }
+    .lista-menu{
+        width: 15%;
+    }
+    .opcoes__botao{
+        display: none;
+    }
     
 }
 
