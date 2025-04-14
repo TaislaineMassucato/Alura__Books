@@ -5,22 +5,26 @@
 @import url(styles/contato.css);
 @import url(styles/rodape.css);
 
-:root{
-    --cor-de-fundo : #E5E5E5;
-    --cor-branca : #FFFFFF;
+:root {
+    --cor-de-fundo: #E5E5E5;
+    --cor-branca: #FFFFFF;
     --cor-laranja: #EB9B00;
     --cor-azul: #002F52;
     --cor-degrade: linear-gradient(97.54deg, #002f52 35.49%, #326589 165.37%);
     --font-principal: "Poppins", sans-serif;
-    --font-secundaria:"Josefin Sans", sans-serif;
-    --preto:#000000;
+    --font-secundaria: "Josefin Sans", sans-serif;
+    --preto: #000000;
+    --cinza: #474646;
+    --cinza-claro: #858585;
 }
-body{
+
+body {
     background-color: var(--cor-de-fundo);
     font-family: var(--font-principal);
     font-weight: 400;
     font-size: 16px;
 }
-h1{
+
+h1 {
     background-color: var(--cor-branca);
 }
