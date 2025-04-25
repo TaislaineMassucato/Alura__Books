@@ -1,24 +1,26 @@
-.banner{
+.banner {
     background: var(--cor-degrade);
     color: var(--cor-branca);
     text-align: center;
     padding: 2.5em 2em;
 }
-.banner__titulo{
+
+.banner__titulo {
     font-size: 18px;
     font-weight: 700;
 }
-.banner__texto{
+
+.banner__texto {
     font-weight: 500;
     margin: 1em 0
-    
 }
-.banner__Pesquisa{
+
+.banner__Pesquisa {
     font-size: 14px;
     font-weight: 400;
 }
 
-.banner__pesquisa{
+.banner__pesquisa {
     background-color: transparent;
     border: 1px solid var(--cor-branca);
     border-radius: 27px;
@@ -27,7 +29,7 @@
     width: 100%;
 }
 
-.banner__pesquisa::placeholder{
+.banner__pesquisa::placeholder {
     font-family: var(--font-principal);
     font-weight: 400;
     font-size: 14px;
@@ -38,25 +40,30 @@
 }
 
 @media screen and (min-width: 1024px) {
-    .banner__titulo{
+    .banner__titulo {
         font-size: 36px;
         font-weight: 700;
     }
-    .banner__pesquisa::placeholder{
+
+    .banner__pesquisa::placeholder {
         background-position: 7em;
     }
-    .banner__pesquisa{
+
+    .banner__pesquisa {
         width: 50%;
     }
 }
+
 @media screen and (min-width: 1728px) {
-    .banner__pesquisa{
+    .banner__pesquisa {
         width: 35%;
     }
-    .banner__pesquisa::placeholder{
+
+    .banner__pesquisa::placeholder {
         background-position: 12em;
     }
-    .banner{
+
+    .banner {
         padding: 6em 0;
     }
 }
